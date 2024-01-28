@@ -4,6 +4,8 @@
 /// Important - the main problem with the approach below is that f.e. you never cast Int to int you must use int property .value
 /// to get acces to the real element. You would have to do entire intependent type system working seamlessly within itself
 /// but have to sort of cast to int, String, etc. to be usable to real classes of dart
+/// Important also much could be done with macros for automation of generating some code if this approach reached some useful stage
+/// Of course you can write the all code "by hand" - macros are helpers to do it for yourself. 
 /// "Union" types - called by me multitypes, another approach THIS WORKS as expected, however:
 /// ISSUE: you can only implement custom Int and built in native dart "Map" interface, real Map implementation class 
 /// can be mixed with if it is top level class (or can't) but Int, Str can't be mixed so you have to 
