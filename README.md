@@ -1,5 +1,7 @@
 # multitypes_third_and_fourth_approach_playground
 
+/// The below code is as with the second approach repository not a solution but sort of code for evaluation potential possibilities of implementing something that is called union types. The based on classes third approach could be called multi types, exhaustive types, merged types, etc. The fourth is the least promising based on extension types.
+
 /// =========================================================================================
 /// Important - the main problem with the approach below is that f.e. you never cast Int to int you must use int property .value
 /// to get acces to the real element. You would have to do entire intependent type system working seamlessly within itself
